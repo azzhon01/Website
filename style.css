@@ -1,0 +1,47 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f172a; /* Dark blue-black */
+    color: #f8fafc;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #1e293b;
+}
+
+nav ul { display: flex; list-style: none; }
+nav ul li { margin-left: 20px; }
+nav a { color: white; text-decoration: none; font-weight: bold; }
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, #1e293b, #0f172a);
+}
+
+.highlight { color: #38bdf8; } /* Bright blue for emphasis */
+
+.cta {
+    display: inline-block;
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.tags span {
+    background: #334155;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
