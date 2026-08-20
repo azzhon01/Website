@@ -404,7 +404,7 @@ section {
 .cert-card:hover { border-color: var(--accent-dim); transform: translateY(-2px); }
 
 .cert-logo {
-  width: 70px; height: 70px;
+  width: 120px; height: 120px;
   background: var(--navy-light);
   border: 1px solid var(--navy-border);
   border-radius: 50%;
@@ -427,6 +427,12 @@ section {
 .cert-date {
   font-size: 12px;
   color: var(--text-muted);
+}
+
+.cert-logo img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
 }
 
 /* ── CONNECT ── */
