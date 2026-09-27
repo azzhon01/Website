@@ -281,6 +281,40 @@ section {
   margin-bottom: 8px;
 }
 
+.project-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.project-title-row .project-title {
+  margin-bottom: 0;
+}
+
+.status-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.status-complete {
+  background: rgba(74, 222, 128, 0.15);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.3);
+}
+
+.status-progress {
+  background: rgba(232, 200, 112, 0.15);
+  color: var(--accent);
+  border: 1px solid rgba(232, 200, 112, 0.3);
+}
+
 .project-desc {
   font-size: 13px;
   color: var(--text-secondary);
@@ -335,26 +369,6 @@ section {
 
 .btn-sm-outline:hover { border-color: var(--accent-dim); color: var(--white); }
 
-/* Add project placeholder card */
-.project-card-add {
-  background: transparent;
-  border: 2px dashed var(--navy-border);
-  border-radius: var(--radius);
-  min-height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  color: var(--text-muted);
-  font-size: 13px;
-  cursor: pointer;
-  transition: border-color 0.2s, color 0.2s;
-}
-
-.project-card-add:hover { border-color: var(--accent-dim); color: var(--text-secondary); }
-
-.project-card-add svg { width: 28px; height: 28px; opacity: 0.5; }
 
 /* ── SKILLS ── */
 #skills { background: var(--navy-mid); }
