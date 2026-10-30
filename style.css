@@ -315,6 +315,12 @@ section {
   border: 1px solid rgba(232, 200, 112, 0.3);
 }
 
+.status-planned {
+  background: rgba(85, 85, 85, 0.15);
+  color: #A9A9A9;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
 .project-desc {
   font-size: 13px;
   color: var(--text-secondary);
